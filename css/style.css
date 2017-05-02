@@ -57,12 +57,48 @@ span {
 }
 	
 nav {
-text-decoration:none;
+	background-color: #E1E1E1;
+	border: 1px solid #D20003;
+	width: 100%;
+	height: 50px;
+	padding-bottom: 15px;
+	}
 
-
+ul {
+list-style:none;
 
 }
+
+
+li {
+	float:left;
+	width: 150px;
+	line-height: 35px;
+	font-size:24px;
 	
+}
+a:link {
+text-decoration:none;
+color: crimson;
+	
+}
+ a:visited {
+color: #851214;
+ }
+ 
+a:hover {
+font-weight:600;
+}
+
+a:active {
+color:#851214
+}
+
+body {
+margin-left: 15px;
+
+
+
 	
 	
 	
