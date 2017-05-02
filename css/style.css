@@ -1,3 +1,50 @@
 @charset "UTF-8";
 /* CSS Document */
 
+*{
+	font-family: Helvetica, Arial, sans-serif
+}
+
+
+h1 {
+	
+}
+h2{
+	
+	font-weight:200;
+	margin-top:-20px;
+
+}
+
+
+tr:nth-child(even){
+	background-color: #FFFDC2;
+}
+
+th {
+	text-align:left;
+}
+
+td {
+	padding: 3px 30px;
+	border-left:1px solid grey;
+	border-right:1px solid grey;
+}
+table {
+	border-collapse:collapse;
+	border-bottom:1px solid grey;
+}
+tr:nth-child(2) {
+	border-top:1px solid grey;
+	
+
+}
+
+tr:nth-child(1) {
+	border-right:0px solid white;
+	}
+.image {
+	border: 0px solid white;
+	vertical-align:bottom;
+	padding-bottom: 15px;
+}
