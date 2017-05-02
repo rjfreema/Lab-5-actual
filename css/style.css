@@ -23,6 +23,8 @@ tr:nth-child(even){
 
 th {
 	text-align:left;
+	padding-left: 20px;
+	border-left:1px solid grey;
 }
 
 td {
@@ -48,3 +50,19 @@ tr:nth-child(1) {
 	vertical-align:bottom;
 	padding-bottom: 15px;
 }
+
+span {
+	font-weight:200;
+	font-style:italix;
+}
+	
+nav {
+text-decoration:none;
+
+
+
+}
+	
+	
+	
+	
