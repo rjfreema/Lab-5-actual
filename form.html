@@ -3,7 +3,7 @@
 <head>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
-<title> Hyrdro Flask </title>
+<title> Hyrdro Flask Order Form</title>
 </head>
 
 <body>
@@ -35,8 +35,9 @@
 
 <p> State
 <select name="States">
-<option value="Alabama"
-selected="selected"> Alabama </option>
+<option value="Choose One"
+selected="selected"> Choose One </option>
+<option value="Alabama"> Alabama </option>
 <option value="Alaska"> Alaska </option>
 <option value="Arizona"> Arizona </option>
 <option value="Arkansas"> Arkansas </option>
@@ -91,17 +92,17 @@ selected="selected"> Alabama </option>
 
 
 <p> Zip Code
-<input type="text" name="Zip Code" maxlength="30"/>
+<input type="text" name="Zip Code" maxlength="30" size="15"/>
 </p>
 
 <p> Phone Number
-<input type="text" name="Phone Number" maxlength="30"/>
+<input type="text" name="Phone Number" maxlength="30" size="11"/>
 </p>
 
 <p> Email
 <input type="text" name="Email" maxlength="30"/>
 </p>
-</fieldset>
+
 
 
 
@@ -109,36 +110,51 @@ selected="selected"> Alabama </option>
 <input type="radio" name="Gender" value="male" checked="checked" /> Male
 <input type="radio" name="Gender" value="female"/> Female
 </p>
+</fieldset>
+<div>
+<p class="check"> Top 5 Color Preferences</p>
 
-<p> Top 5 Color Preferences
-<input type="checkbox" name="5 Favorite Colors" value="Blue"/> Blue
+<p class="check">
+<input class="blue" type="checkbox" name="5 Favorite Colors" value="Blue"/> Blue
 <input type="checkbox" name="5 Favorite Colors" value="Green"/> Green
 <input type="checkbox" name="5 Favorite Colors" value="Orange"/> Orange
+</p>
+<p class="check"> 
 <input type="checkbox" name="5 Favorite Colors" value="Red"/> Red
 <input type="checkbox" name="5 Favorite Colors" value="Yellow"/> Yellow
 <input type="checkbox" name="5 Favorite Colors" value="Purple"/> Purple
+</p>
+<p class="check">
 <input type="checkbox" name="5 Favorite Colors" value="Pink"/> Pink
 <input type="checkbox" name="5 Favorite Colors" value="Black"/> Black
-<input type="checkbox" name="5 Favorite Colors" value="Grey"/> Grey
 <input type="checkbox" name="5 Favorite Colors" value="White"/> White
 </p>
+</div>
 
-<p> Credit Card Number (Include Dashes)
+<p class="card"> Credit Card Number (Include Dashes)
 <input type="text" name="Credit Card Information" maxlength="30"/>
-</p>
 
-<p> CV/Security Code
+
+ &nbsp CV/Security Code
 <input type="text" name="Secutiry Code" maxlength="5" size="5"/>
+
+<img class="amex" src="images/american_express.gif" alt="Amex">
+<input type="radio" name="Card Type" value="Amex" checked="checked"/> 
+
+<img class="master" src="images/mastercard1979.gif" alt="Mastercard">  
+<input type="radio" name="Card Type" value="Mastercard"/> 
+
+<img class="visa" src="images/visa.gif" alt="Visa"> 
+<input type="radio" name="Card Type" value="Mastercard"/> 
 </p>
 
-<p> Credit Card Images
+
+
+
+<p class="submit">
+ <input type="submit" value="Submit"/> 
+
 </p>
-
-
-
-<input type="submit" value="Submit"/>
-
-
 
 
 

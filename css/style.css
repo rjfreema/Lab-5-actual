@@ -99,9 +99,53 @@ margin-left: 15px;
 }
 
 fieldset {
-	background-color: #D20003;
+	background: rgba(255, 0, 0, .1);
+	border: none;
+	margin-top: 10px;
+
+
+
 }
 	
-	
-	
-} 
+form img{ 
+width: 80px;
+padding-left: 15px;
+}
+
+.amex {
+padding-left: 25px;
+padding-right: 10px;
+}
+
+.master {
+padding-right: 10px;	
+}
+
+.visa {
+padding-right: 10px;
+}
+
+
+.check {
+width: 270px;
+
+}
+
+div {
+	background-color:rgba(225, 225, 225, .5);
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom:5px;
+	margin-top: 10px;
+	margin-left: 2px;
+}
+
+.card{
+	background: rgba(255, 0, 0, .1);
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-left: 2px;
+
+}
+
+
