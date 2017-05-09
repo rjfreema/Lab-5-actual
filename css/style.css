@@ -96,9 +96,12 @@ color:#851214
 
 body {
 margin-left: 15px;
+}
 
-
-
+fieldset {
+	background-color: #D20003;
+}
 	
 	
 	
+} 
